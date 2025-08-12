@@ -1,0 +1,20 @@
+:root{
+  --bg:#f7fbfb;
+  --teal:#07a08a;
+  --dark:#0b2a35;
+  --muted:#6b7c80;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:var(--dark)}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+.site-header{background:white;border-bottom:1px solid #e6f0ef}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+nav a{margin-left:12px;color:var(--dark);text-decoration:none}
+.hero{background:linear-gradient(180deg,#ffffff00, #eaf6f4);padding:28px;border-radius:10px;margin-top:20px}
+.btn{display:inline-block;background:var(--teal);color:white;padding:10px 16px;border-radius:8px;text-decoration:none}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:18px}
+.card{background:white;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(11,42,53,0.06)}
+.calc input{width:100%;padding:8px;margin:6px 0;border:1px solid #e3eded;border-radius:6px}
+.content{margin-top:20px}
+.muted{color:var(--muted)}
+.site-footer{padding:18px;text-align:center;margin-top:30px;color:var(--muted)}

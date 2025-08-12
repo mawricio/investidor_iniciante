@@ -1,0 +1,5 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px;background:#f7fbfb;color:#0b2a35}
+.container{max-width:1000px;margin:0 auto}
+.card{background:white;padding:12px;border-radius:8px;margin-bottom:10px}
+.admin{margin-top:20px}
+input{display:block;padding:8px;margin:8px 0;width:100%}

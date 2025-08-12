@@ -1,0 +1,24 @@
+{
+  "name": "investidor-iniciante360",
+  "version": "1.0.0",
+  "description": "Starter site for Investidor Iniciante 360: Node/Express + MongoDB + static frontend + React admin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start:prod": "npm run build:client && node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
